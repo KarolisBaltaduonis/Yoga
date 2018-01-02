@@ -1,0 +1,264 @@
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+body {
+  font-size:1rem;
+  font-family: "Open Sans";
+}
+a {
+  color: #49C3B4;
+  text-decoration: none;
+}
+.container {
+  max-width:1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+html {
+  font-size:14px
+}
+
+h1 {
+  font-size:3rem;
+}
+h2 {
+  font-size:2rem;
+}
+.logo {
+  display:inline-block;
+  vertical-align: top;
+}
+.navigation {
+  display:inline-block;
+  margin-top:20px;
+}
+.navigation li {
+  display:inline-block;
+  text-align: center;
+  margin-left:15px;
+  margin-right:15px;
+}
+.navigation i {
+  display:block;
+}
+header {
+  text-align: center;
+}
+.navigation ul {
+  padding:0;
+  margin:0;
+  list-style: none;
+}
+.navigation a {
+  text-decoration:none;
+  color:#49C3B4;
+  font-family: "Courgette";
+  font-size:1.5rem;
+  padding:20px;
+  display:block;
+  transition:all 0.7s;
+}
+.navigation li:hover a {
+  color:#000;
+}
+
+.slideshow {
+  padding-top: 23%;
+  padding-bottom: 23%;
+  background-image: url('../img/fond.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: top center;
+}
+.promo {
+  background-color: rgba(73, 195, 180, 0.5);
+  font-family: "Courgette";
+  color:#fff;
+  text-align: center;
+  padding: 20px 0;
+}
+.promo h1 {
+  margin:0;
+}
+.promo p {
+  font-size: 2rem;
+  margin:0;
+}
+.demo {
+  font-size:2rem;
+  text-align: center;
+  background-color: rgba(73, 195, 180, 1);
+  color:#fff;
+  padding: 15px 0;
+}
+.demo p {
+  margin: 0;
+}
+.content {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+iframe {
+  width:100%;
+}
+footer {
+  background-color: #49C3B4;
+  padding-top: 15px;
+  padding-bottom:15px;
+  text-align: center;
+  color:#fff;
+  margin-top: -5px;
+}
+.team {
+  background-color:#B7B12E;
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.column {
+  max-width: 33%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  color:#fff;
+  float:left;
+}
+.column h2 {
+  font-family: "Courgette";
+}
+
+.cover {
+  width:200px;
+  height: 200px;
+  line-height:200px;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cover img {
+  width:200px;
+  height:200px;
+  line-height:200px;
+  display:block;
+
+
+}
+.cover a {
+  width: 200px;
+  height:200px;
+  line-height: 200px;
+  display: block;
+  background-color: rgba(255, 0, 0, 0.5);
+  transition:all 0.7s;
+  opacity: 0;
+  position: absolute;
+  border-radius: 100%;
+  top: 0;
+  left:0;
+  color: white;
+  text-decoration: none;
+}
+.column:hover a  {
+  opacity:1
+}
+table, td, tr, th {
+  border:solid 1px lightgrey;
+  border-collapse: collapse;
+}
+th {
+  background-color: #49C3B4;
+  color:white;
+  font-family: "Courgette";
+  text-align: left;
+  font-size: 1.6rem;
+
+
+}
+table {
+  width:100%;
+  margin-bottom:30px;
+}
+th, td {
+  padding:10px;
+}
+
+tr:nth-child(even) td {
+  background-color: #f2f2f2;
+}
+td {
+  text-align: center;
+}
+td:first-child {
+  text-align: left;
+}
+td:hover a {
+  color:black;
+}
+.text-center {
+  text-align: center;
+  font-family: "Courgette";
+}
+.tekstascentre {
+  text-align: center;
+  font-family: "Courgette";
+}
+
+.left-div {
+  width: 47%;
+  float:left;
+}
+.right-div {
+  width:47%;
+  float:right;
+}
+.inputs-group {
+  margin-bottom: 30px;
+
+}
+input[type="email"],
+input[type="text"] {
+  width: 100%;
+  margin-top: 30px;
+  border:none;
+  border-bottom: 1px solid #49C3B4;
+  color:#49C3B4;
+  outline: none;
+  padding: 5 10px;
+}
+.submit-form {
+  text-align: center;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 10px;
+  margin-left:30px;
+}
+select {
+	width: 100%;
+	margin-bottom: 30px;
+	border: solid 1px #49C3B4;
+	color:#49C3B4;
+  background-color: white;
+}
+input[type="submit"] {
+  background-color:#49C3B4;
+  color:#fff;
+  border:none;
+  padding:10px;
+}
